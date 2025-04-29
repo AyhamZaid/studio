@@ -23,9 +23,9 @@ interface CatalogItem {
 
 // Mock catalog data - replace with your actual PDF paths or fetch from an API
 const pdfList: CatalogItem[] = [
-  { title: "كتالوج 1", file: "/AceHacker-Syllabus.pdf", cover: "https://fanutrition.pl/fa__billionaire_en/files/thumb/0.jpg" },
-  { title: "كتالوج 2", file: "/235_7-English-Grammar-in-Use.-Murphy-R.-2019-5th-394p-.pdf", cover: "https://fanutrition.pl/fa__core_en/files/thumb/0.jpg" },
-  { title: "كتالوج 3", file: "/catalog3.pdf", cover: "https://fanutrition.pl/fa__bad_ass_en/files/thumb/1.jpg" },
+  { title: "كتالوج 1", file: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf", cover: "https://fanutrition.pl/fa__billionaire_en/files/thumb/0.jpg" },
+  { title: "كتالوج 2", file: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf", cover: "https://fanutrition.pl/fa__core_en/files/thumb/0.jpg" },
+  { title: "كتالوج 3", file: "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf", cover: "https://fanutrition.pl/fa__bad_ass_en/files/thumb/1.jpg" },
   // Add more catalogs as needed
 ];
 
